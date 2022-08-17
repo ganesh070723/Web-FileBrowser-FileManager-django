@@ -31,17 +31,21 @@ def index(request):
         
         if form.is_valid():
             the_files = form.cleaned_data['files_data']
+            the_files = form.files.getlist('files_data')
+            for i in the_files:
+                 file_upload( my_file=i).save()
 
-            file_upload( my_file=the_files).save()
+           
             
             return HttpResponse("file upload")
         else:
-           
+            length=[]
             all_data = file_upload.objects.all()
-            the_files = form.cleaned_data['files_data']
-           
-            file_upload( my_file=the_files).save()
-            length = all_data[len(all_data)-1].my_file
+            the_files = form.files.getlist('files_data')
+            for i in the_files:
+                 file_upload( my_file=i).save()
+                 b = i
+                 length.append(b)
             context = {
                 'filedata':the_files,
                 'data':all_data,

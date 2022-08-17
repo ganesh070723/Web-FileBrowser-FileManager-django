@@ -32,20 +32,52 @@
     #div{
         padding-top: 2vh;
     }
+    .line{
+       font-size: 3vh;
+    }
 </style>
 </head>
 <body>
    
     {% include 'nav.html' %}
     <div id="div" class="container mt-5">
-        <h1>{{len}} is Uploaded 📂</h1>
+        <table style=" color: white; font-size: 2vh;" class="table">
+            <thead>
+              <tr>
+                <th ><h4>S/N</h4> </th>
+                <th ><h4>Files Detials</h4> </th>
+                <th><h4>status</h4> </th>
+                <th ></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for d in len %}
+              <tr>
+                <th>{{forloop.counter}}</th>
+                <th> 
+                  <h1 class="line">{{d}}</h1>
+                </th>
+            
+                
+               <th>
+                 <button class="button-30" role="button" style="background-color:springgreen ;"><h6>UPLOADED</h6></button>
+               </th>
+               {% endfor %}
+              </tr>
+            </tbody>
+        </table>
+               <a href="/" >
+                    <button type="button" style="text-align: center ;margin-top: 20% ; padding: 2%; width: 10%; " class="btn btn-success">
+                     Add More
+                    </button>
+                </a>
+              </td>
+              </tr>
+           </tbody>
+        </table>
     </div>
     <div class="container mt-5">
-        <a href="/">
-        <button type="button" class="btn btn-success">
-         Add More
-        </button>
-    </a>
+   
     </div>
       <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
