@@ -59,7 +59,7 @@ before run this project, Install all you needed with pip
 
 ### search🔍
 
-![App Screenshot](https://raw.githubusercontent.com/ganesh070723/FileBrowser-FileManager-django/main/media/Screenshot%202.png)
+![App Screenshot](https://raw.githubusercontent.com/ganesh070723/FileBrowser-FileManager-django/main/media/Screenshot_2.png)
 
 ## Feedback
 
