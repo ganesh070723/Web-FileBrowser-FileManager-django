@@ -32,7 +32,7 @@ before run this project, Install all you needed with pip
 
 ```bash
   - pip install django
-  - python manage.py makemigration ( before this you have give your own password for postgreSQL or you can set for sqlite3 in setting.py )
+  - python manage.py makemigration ( before this, you have to give your own password for postgreSQL or you can set for sqlite3 in setting.py )
   - python manage.py migrate
 ```
 #### * RUN THIS PROJECT WITH - python manage.py runserver 
