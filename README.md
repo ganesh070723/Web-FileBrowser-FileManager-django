@@ -47,19 +47,21 @@ before run this project, Install all you needed with pip
 
 # Demo
 ### Main Page👻
-![App Screenshot](https://raw.githubusercontent.com/ganesh070723/FileBrowser-FileManager-django/main/media/screenshot.gif)
+![App Screenshot](https://raw.githubusercontent.com/ganesh070723/FileBrowser-FileManager-django/main/media/main.png)
 
 ### Upload Files🚀
-![App Screenshot](https://raw.githubusercontent.com/ganesh070723/FileBrowser-FileManager-django/main/media/Screenshot%20(42).png)
+![App Screenshot](https://raw.githubusercontent.com/ganesh070723/FileBrowser-FileManager-django/main/media/upload-1.png)
 
 ### Files Uploaded👍
 
-![App Screenshot](https://raw.githubusercontent.com/ganesh070723/FileBrowser-FileManager-django/main/media/Screenshot%20(43).png)
+![App Screenshot](https://raw.githubusercontent.com/ganesh070723/FileBrowser-FileManager-django/main/media/upload-2.png)
 
 
 ### search🔍
 
-![App Screenshot](https://raw.githubusercontent.com/ganesh070723/FileBrowser-FileManager-django/main/media/Screenshot_2.png)
+![App Screenshot](https://raw.githubusercontent.com/ganesh070723/FileBrowser-FileManager-django/main/media/search-1.png)
+
+![App Screenshot](https://raw.githubusercontent.com/ganesh070723/FileBrowser-FileManager-django/main/media/search-2.png)
 
 ## Feedback
 
