@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+      </head>
+     <style>
+      body{
+        font-family: "JetBrains Mono",monospace;
+      }
+      a:link { text-decoration: none; }
+     </style>
+<body>
+  {% block content %}
+  
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+
+                <table style=" color: white; font-size: 2vh;" class="table">
+                    <thead>
+                      <tr>
+                        <th ><h4>S/N</h4> </th>
+                        <th ><h4>Files</h4> </th>
+                        <th><h4>Download</h4> </th>
+                        <th ></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {% for d in data %}
+                      <tr>
+                        <th>{{forloop.counter}}</th>
+                        <th> 
+                          <a target="_blank" href="{{d.my_file.url}}"><h6 style=" color:white; font-size: 2vh;" class="line"> {{d.my_file}}</h6></a>
+                        </th>
+                    
+                        
+                       <th>
+                          <a download href="{{d.my_file.url}}"><button class="button-30" role="button"><h6 class="line">DOWNLOAD</h6></button></a>
+                       </th>
+                       {% endfor %}
+                      </tr>
+                     
+                    </tbody>
+                  </table>
+                 
+                   
+                  
+
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}
+
+</body>
+
+</html>
+
+
+
+
