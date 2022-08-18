@@ -1,5 +1,28 @@
 #! /usr/bin/env python
-"""Copyright Askbot, SpA"""
+"""
+DUMMY FILES , SO DON'T WORRY ABOUT THIS
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 from setuptools import setup, find_packages
 
 setup(
