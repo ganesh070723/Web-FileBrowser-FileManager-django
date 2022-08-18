@@ -1,7 +1,7 @@
 
 # Web File Browser 📂
 
-FileBrowser or FileManager is developed for web browsers to search local disk files easily 
+Web based FileBrowser( File Manager or File explorer) or FileManager is developed for web browsers to search local disk files easily 
 or you can use this alternate for Windows File explorer. you can upload your files and
 It can search Your files faster than You think!🚀
 ### Visit My Website If You want To know about More - [👻Ganeshbabu.xyz](https://www.ganeshbabu.xyz)
