@@ -1,5 +1,5 @@
 
-# File Browser 📂
+# Web File Browser 📂
 
 FileBrowser or FileManager is developed for web browsers to search local disk files easily 
 or you can use this alternate for Windows File explorer. you can upload your files and
